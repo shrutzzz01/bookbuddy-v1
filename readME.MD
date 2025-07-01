@@ -62,6 +62,7 @@ Currently using **in-memory storage**. Will be extended in future versions.
 ## 📂 Folder Structure
 
 ---
+```
 src
 └── main
 ├── java
@@ -71,6 +72,7 @@ src
 │ ├── service # BookService.java
 │ └── controller # BookController.java
 └── resources
+```
 
 ## 📌 Next Steps
 
