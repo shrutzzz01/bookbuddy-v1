@@ -41,6 +41,7 @@ public class BookController {
     public boolean markRead(@RequestParam String title){
         return bookService.markBookAsRead(title);
     }
+    @PatchMapping("/mark-unread")
     public boolean markUnread(@RequestParam String title){
         return bookService.markBookAsUnread(title);
     }
